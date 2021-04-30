@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="prize_draw_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0H-MD-ED7">
+                                <rect key="frame" x="75" y="244" width="264" height="261"/>
+                                <state key="normal" image="botaogerar"/>
+                                <state key="highlighted" image="botaogerar-pressionado"/>
+                                <connections>
+                                    <action selector="buttonGenerate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Qh-0g-d5v"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="MSl-JL-vHb">
+                                <rect key="frame" x="55" y="94" width="304" height="130"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6eb-co-0R1">
+                                <rect key="frame" x="207" y="535" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="60"/>
+                                <color key="textColor" red="0.48491037436548223" green="0.22882490725294075" blue="0.06219087136077036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.47189113566061369" blue="0.12825230114358499" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6eb-co-0R1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1cM-f5-mLM"/>
+                            <constraint firstItem="c0H-MD-ED7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="UE7-Qc-6O1"/>
+                            <constraint firstItem="MSl-JL-vHb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="j8j-wG-agQ"/>
+                            <constraint firstItem="6eb-co-0R1" firstAttribute="top" secondItem="c0H-MD-ED7" secondAttribute="bottom" constant="30" id="kTv-Av-BDd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MSl-JL-vHb" secondAttribute="trailing" constant="55" id="lwF-FB-HQm"/>
+                            <constraint firstItem="MSl-JL-vHb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="o8k-6E-4RI"/>
+                            <constraint firstItem="c0H-MD-ED7" firstAttribute="top" secondItem="MSl-JL-vHb" secondAttribute="bottom" constant="20" id="tEQ-pn-NFb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c0H-MD-ED7" secondAttribute="trailing" constant="75" id="z8n-Di-hp3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="textResult" destination="6eb-co-0R1" id="Bbv-07-ttg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="botaogerar" width="261" height="261"/>
+        <image name="botaogerar-pressionado" width="261" height="261"/>
+        <image name="logo" width="328" height="130"/>
+    </resources>
+</document>
