@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="daily_quotes_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Ist-Nm-3rR">
+                                <rect key="frame" x="60" y="50" width="255" height="140"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aspas-direita" translatesAutoresizingMaskIntoConstraints="NO" id="fDh-Ux-JbL">
+                                <rect key="frame" x="260" y="526" width="99" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="WSE-Oj-rkd"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Rc-hq-zSC">
+                                <rect key="frame" x="16" y="316" width="343" height="191"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4vG-eF-rmQ">
+                                <rect key="frame" x="60" y="205" width="255" height="30"/>
+                                <color key="backgroundColor" red="0.43067247135412595" green="0.57862076213045688" blue="0.19584655428941397" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Nova frase">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="newQuoteButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lXL-Fg-CBh"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aspas-esquerda" translatesAutoresizingMaskIntoConstraints="NO" id="PH3-5u-zdp">
+                                <rect key="frame" x="16" y="277" width="99" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="xGl-iR-VwC"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ist-Nm-3rR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="4aE-gP-LtX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4vG-eF-rmQ" secondAttribute="trailing" constant="60" id="AXx-ew-we7"/>
+                            <constraint firstItem="4vG-eF-rmQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="COO-18-yeL"/>
+                            <constraint firstItem="5Rc-hq-zSC" firstAttribute="top" secondItem="PH3-5u-zdp" secondAttribute="bottom" constant="8" id="PwV-mK-lCm"/>
+                            <constraint firstItem="4vG-eF-rmQ" firstAttribute="top" secondItem="Ist-Nm-3rR" secondAttribute="bottom" constant="15" id="S5P-dI-d8K"/>
+                            <constraint firstItem="fDh-Ux-JbL" firstAttribute="top" secondItem="5Rc-hq-zSC" secondAttribute="bottom" constant="19" id="Wae-E7-9va"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ist-Nm-3rR" secondAttribute="trailing" constant="60" id="WmO-8l-nne"/>
+                            <constraint firstItem="PH3-5u-zdp" firstAttribute="leading" secondItem="5Rc-hq-zSC" secondAttribute="leading" id="XT1-Aw-ije"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PH3-5u-zdp" secondAttribute="trailing" constant="260" id="bkn-7M-tKH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fDh-Ux-JbL" secondAttribute="bottom" constant="110" id="cP7-Rn-niA"/>
+                            <constraint firstItem="PH3-5u-zdp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ehc-Vf-TpF"/>
+                            <constraint firstItem="5Rc-hq-zSC" firstAttribute="centerX" secondItem="4vG-eF-rmQ" secondAttribute="centerX" id="gYj-Gv-9fD"/>
+                            <constraint firstItem="fDh-Ux-JbL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="260" id="grm-74-X23"/>
+                            <constraint firstItem="Ist-Nm-3rR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="lJn-0R-Un5"/>
+                            <constraint firstItem="5Rc-hq-zSC" firstAttribute="trailing" secondItem="fDh-Ux-JbL" secondAttribute="trailing" id="o3T-Ui-nxA"/>
+                            <constraint firstItem="PH3-5u-zdp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="277" id="zbV-KL-G3s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="quoteLabel" destination="5Rc-hq-zSC" id="Vh2-Ej-XNS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.75" y="114.08450704225352"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="aspas-direita" width="56" height="55"/>
+        <image name="aspas-esquerda" width="57" height="54"/>
+        <image name="logo" width="253" height="140"/>
+    </resources>
+</document>
