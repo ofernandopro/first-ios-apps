@@ -1,17 +1,16 @@
 //
 //  Movie.swift
-//  my-moovies-app
+//  my-movies-app
 //
-//  Created by Fernando Moreira on 03/05/21.
+//  Created by Fernando Moreira on 04/05/21.
 //  Copyright © 2021 Fernando Moreira. All rights reserved.
 //
 
 import UIKit
 
 class Movie {
-    
-    var title: String!
-    var description: String!
+    var title: String
+    var description: String
     var image: UIImage!
     
     init(title: String, description: String, image: UIImage) {

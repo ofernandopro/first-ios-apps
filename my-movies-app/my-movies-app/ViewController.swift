@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  my-moovies-app
+//  my-movies-app
 //
-//  Created by Fernando Moreira on 03/05/21.
+//  Created by Fernando Moreira on 04/05/21.
 //  Copyright © 2021 Fernando Moreira. All rights reserved.
 //
 
@@ -16,7 +16,7 @@ class ViewController: UITableViewController {
         super.viewDidLoad()
         
         var movie: Movie
-        
+            
         movie = Movie(title: "007 - Spectre", description: "James Bond chega à Cidade do México e está pronto para eliminar Marco Sciarra sem que o chef M saiba da missão.", image: UIImage(named: "filme1")!)
         movies.append(movie)
         
@@ -59,7 +59,7 @@ class ViewController: UITableViewController {
     
     // On clicking in a line, do:
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-       
+        
         let movie = movies[indexPath.row]
         
         let reuseCell = "reuseCell"
@@ -75,13 +75,12 @@ class ViewController: UITableViewController {
         cell.movieImageView.layer.cornerRadius = 45
         cell.movieImageView.clipsToBounds = true
         
-        // Change the color of the text of the line
-        cell.textLabel?.textColor = UIColor.white
         return cell
         
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
         if segue.identifier == "movieDetails" {
             
             // Recupera a linha clicada:
@@ -92,7 +91,9 @@ class ViewController: UITableViewController {
                 viewControllerDestiny.movie = selectedMovie
             }
         }
+        
     }
+
 
 }
 
