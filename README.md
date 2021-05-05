@@ -14,24 +14,27 @@
 
 ## Apps created
 
-1) DogAge - Find out your puppy's age in human years! This app calculates your partner's transformed age for human years. <br />
+1) <a href="https://github.com/ofernandopro/simple-ios-apps/tree/main/dog-age">DogAge</a> - Find out your puppy's age in human years! This app calculates your partner's transformed age for human years. <br />
 
-2) Prize Draw - Free and dynamic random number drawer! Make sweepstakes through the Prize Draw App quickly and easily! <br />
+2) <a href="https://github.com/ofernandopro/simple-ios-apps/tree/main/prize-draw-app">Prize Draw</a> - Free and dynamic random number drawer! Make sweepstakes through the Prize Draw App quickly and easily! <br />
 
-3) Daily Quotes - Get motivated every day with this amazing App that gives you incredible quotes for you to go and face the day! <br />
+3) <a href="https://github.com/ofernandopro/simple-ios-apps/tree/main/daily-quotes-app">Daily Quotes</a> - Get motivated every day with this amazing App that gives you incredible quotes for you to go and face the day! <br />
 
-4) Alcohol or Gas? - What about having an app to tell you which is the best for you and your car, alcohol or gas? Now you have! <br />
+4) <a href="https://github.com/ofernandopro/simple-ios-apps/tree/main/alcohol-or-gas">Alcohol or Gas?</a> - What about having an app to tell you which is the best for you and your car, alcohol or gas? Now you have! <br />
 
-5) ATM Consulting - Simple Intitutional App created to show company customers, services, contact and about. <br />
+5) <a href="https://github.com/ofernandopro/simple-ios-apps/tree/main/atm-consulting">ATM Consulting</a> - Simple Intitutional App created to show company customers, services, contact and about. <br />
 
-6) Heads or Tails App - Now a coin is no longer needed, even on Heads and Tails! That's thanks to this amazing, fast and easy App! <br />
+6) <a href="https://github.com/ofernandopro/simple-ios-apps/tree/main/heads-or-tails-app">Heads or Tails App</a> - Now a coin is no longer needed, even on Heads and Tails! That's thanks to this amazing, fast and easy App! <br />
 
-7) ProgLanguages - Know more about the most popular programming languages in the world with this incredible App! <br />
+7) <a href="">ProgLanguages</a> - Know more about the most popular programming languages in the world with this incredible App! <br />
 
-8) MyMovies - Know more information about the best movies in the world! <br />
+8) <a href="https://github.com/ofernandopro/simple-ios-apps/tree/main/prog-languages-app">MyMovies</a> - Know more information about the best movies in the world! <br />
 
-9) MyNotes - Type anything, anywhere! You can write down the ideas you have on a day here, because this app keeps saved everything for you! <br />
+9) <a href="https://github.com/ofernandopro/simple-ios-apps/tree/main/my-notes-app">MyNotes</a> - Type anything, anywhere! You can write down the ideas you have on a day here, because this app keeps saved everything for you! <br />
 
-10) To Do List App - What do I have to do? What about having an App to keep saved the things you have to do, and once you do it, you can remove them all! A little bit of endorphin, huh? <br />
+10) <a href="https://github.com/ofernandopro/simple-ios-apps/tree/main/to-do-list">To Do List App</a> - What do I have to do? What about having an App to keep saved the things you have to do, and once you do it, you can remove them all! A little bit of endorphin, huh? <br />
 
-11) Where Am I? - This amazing App tells you your exactly speed, location (latitude and longitude) and address, besides showing you in the map. All you need for a bike ride! <br />
+11) <a href="https://github.com/ofernandopro/simple-ios-apps/tree/main/where-am-i">Where Am I?</a> - This amazing App tells you your exactly speed, location (latitude and longitude) and address, besides showing you in the map. All you need for a bike ride! <br />
+
+
+OBS: Visit the folder of each App to know more information of each one.
