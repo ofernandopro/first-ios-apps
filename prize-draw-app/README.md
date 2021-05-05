@@ -10,11 +10,11 @@ How it works: From an integer number entered by the user, the App calculates a r
 
 The launch screen looks like this:
 <br />
-<img src="prize-draw-app/Assets.xcassets/launchscreen.png" />
+<img src="doc-images/launchscreen.png" />
 <br />
 <br />
 The home screen looks like this:
 <br />
-<img src="prize-draw-app/Assets.xcassets/homescreen.png" />
+<img src="doc-images/homescreen.png" />
 <br />
 <br />
