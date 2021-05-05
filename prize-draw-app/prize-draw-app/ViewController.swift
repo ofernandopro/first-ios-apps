@@ -11,9 +11,13 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var textResult: UILabel!
+    @IBOutlet weak var typedNumber: UITextField!
+    
     @IBAction func buttonGenerate(_ sender: Any) {
-        
-        let number = Int(arc4random_uniform(10) + 1)
+                
+        let maxNumber = UInt32(typedNumber.text!) ?? 0
+            
+        let number = Int(arc4random_uniform(maxNumber) + 1)
         textResult.text = String(number)
         
     }
@@ -21,9 +25,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
-        
         
     }
 
