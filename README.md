@@ -22,7 +22,7 @@
 
 4) <a href="https://github.com/ofernandopro/simple-ios-apps/tree/main/alcohol-or-gas">Alcohol or Gas?</a> - What about having an app to tell you which is the best for you and your car, alcohol or gas? Now you have! <br />
 
-5) <a href="https://github.com/ofernandopro/simple-ios-apps/tree/main/atm-consulting">ATM Consulting</a> - Simple Intitutional App created to show company customers, services, contact and about. <br />
+5) <a href="https://github.com/ofernandopro/simple-ios-apps/tree/main/atm-consulting">ATM Consulting</a> - Simple Institutional App created to show company customers, services, contact and about. <br />
 
 6) <a href="https://github.com/ofernandopro/simple-ios-apps/tree/main/heads-or-tails-app">Heads or Tails App</a> - Now a coin is no longer needed, even on Heads and Tails! That's thanks to this amazing, fast and easy App! <br />
 

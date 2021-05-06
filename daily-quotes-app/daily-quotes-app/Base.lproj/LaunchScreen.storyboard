@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,55 +12,46 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Qe0-vI-8zj">
-                                <rect key="frame" x="97.5" y="393" width="125.5" height="37"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="FjE-wy-p3i">
+                                <rect key="frame" x="40" y="257" width="334" height="382"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="By" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8G-ZC-xUM">
-                                        <rect key="frame" x="0.0" y="0.0" width="125.5" height="14.5"/>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Fernando Moreira" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pHa-hJ-okx">
-                                        <rect key="frame" x="0.0" y="17.5" width="125.5" height="19.5"/>
-                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="quotation" translatesAutoresizingMaskIntoConstraints="NO" id="TGV-Ds-OzP">
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="308"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Daily Quotes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7KH-bk-Lsj">
+                                        <rect key="frame" x="62.5" y="343" width="209.5" height="39"/>
+                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="Qe0-vI-8zj" secondAttribute="height" multiplier="125:37" id="Bjy-d8-h8a"/>
+                                    <constraint firstAttribute="width" secondItem="FjE-wy-p3i" secondAttribute="height" multiplier="187:214" id="Ffs-Hw-C3c"/>
+                                    <constraint firstAttribute="width" secondItem="FjE-wy-p3i" secondAttribute="height" multiplier="256:293" id="qNv-RS-TXz"/>
                                 </constraints>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="qhr-Bw-4Zc">
-                                <rect key="frame" x="33" y="207" width="254" height="113"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="qhr-Bw-4Zc" secondAttribute="height" multiplier="253:113" id="9r0-DA-U3h"/>
-                                    <constraint firstAttribute="width" secondItem="qhr-Bw-4Zc" secondAttribute="height" multiplier="254:113" id="bfg-g9-RGu"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Qe0-vI-8zj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="KL7-vt-Zc5"/>
-                            <constraint firstItem="qhr-Bw-4Zc" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TL6-Dl-y3T"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Qe0-vI-8zj" secondAttribute="bottom" constant="50" id="iI5-4r-Bae"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qhr-Bw-4Zc" secondAttribute="trailing" constant="33" id="ipz-ra-h5i"/>
-                            <constraint firstItem="qhr-Bw-4Zc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="207" id="kn5-SD-8Fh"/>
-                            <constraint firstItem="qhr-Bw-4Zc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="l8N-iF-9CB"/>
+                            <constraint firstAttribute="trailing" secondItem="FjE-wy-p3i" secondAttribute="trailing" constant="20" id="3LF-h4-sI3"/>
+                            <constraint firstItem="FjE-wy-p3i" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" id="5G9-HP-zcg"/>
+                            <constraint firstItem="FjE-wy-p3i" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="L3E-Sg-sso"/>
+                            <constraint firstItem="FjE-wy-p3i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="TMN-yp-b1G"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FjE-wy-p3i" secondAttribute="trailing" constant="40" id="Xtg-4W-I0Y"/>
+                            <constraint firstItem="FjE-wy-p3i" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="bK8-b9-dg1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.5" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="374.18478260869568"/>
         </scene>
     </scenes>
     <resources>
-        <image name="logo" width="253" height="140"/>
+        <image name="quotation" width="512" height="512"/>
     </resources>
 </document>
