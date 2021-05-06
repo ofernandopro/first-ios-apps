@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  dog-age
 //
-//  Created by Fernando Moreira on 27/04/21.
+//  Created by Fernando Moreira on 05/05/21.
 //  Copyright © 2021 Fernando Moreira. All rights reserved.
 //
 
@@ -10,23 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
     @IBOutlet weak var ageTextField: UITextField!
-    @IBOutlet weak var ageLabel: UILabel!
+    @IBOutlet weak var resultLabel: UILabel!
     
-    @IBAction func showAgeButton(_ sender: Any) {
-        let idade = Int(ageTextField.text!)! * 7
-        ageLabel.text = String(idade)
+    @IBAction func calculateButton(_ sender: Any) {
+        
+        let age = Int(ageTextField.text!)! * 7
+        resultLabel.text = String(age)
+        
     }
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        
-        
     }
 
 
