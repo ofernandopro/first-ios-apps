@@ -1,4 +1,4 @@
-## Prize Draw App
+## Daily Quotes App
 
 ## About
 

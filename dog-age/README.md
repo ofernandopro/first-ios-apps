@@ -1,4 +1,4 @@
-## Prize Draw App
+## Dog Age App
 
 ## About
 

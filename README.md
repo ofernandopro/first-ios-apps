@@ -10,7 +10,7 @@
 . How to customize cells in a Table View Controller;<br />
 . How to store data on the device;<br />
 . How to use maps, calculate user speed, location, address, how to mark locations on a map;<br />
-. CoreData;<br />
+. CoreData - how to create, remove, update, and delete data with CoreData;<br />
 
 ## Apps created
 
@@ -35,6 +35,8 @@
 10) <a href="https://github.com/ofernandopro/simple-ios-apps/tree/main/to-do-list">To Do List App</a> - What do I have to do? What about having an App to keep saved the things you have to do, and once you do it, you can remove them all! A little bit of endorphin, huh? <br />
 
 11) <a href="https://github.com/ofernandopro/simple-ios-apps/tree/main/where-am-i">Where Am I?</a> - This amazing App tells you your exactly speed, location (latitude and longitude) and address, besides showing you in the map. All you need for a bike ride! <br />
+12)  <a href="https://github.com/ofernandopro/simple-ios-apps/tree/main/daily-notes">Daily Notes</a> - With this amazing App, you can write down the ideas you have on a day, the things you have to do, your plans, and everything else you want!
 
 
+<br />
 OBS: Visit the folder of each App to know more information of each one.
