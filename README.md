@@ -1,4 +1,4 @@
-# Simple iOS Apps
+# First iOS Apps
 
 
 ## Concepts learned
@@ -11,6 +11,7 @@
 . How to store data on the device;<br />
 . How to use maps, calculate user speed, location, address, how to mark locations on a map;<br />
 . CoreData - how to create, remove, update, and delete data with CoreData;<br />
+. How to get data from a web API;<br />
 
 ## Apps created
 
@@ -36,6 +37,7 @@
 
 11) <a href="https://github.com/ofernandopro/simple-ios-apps/tree/main/where-am-i">Where Am I?</a> - This amazing App tells you your exactly speed, location (latitude and longitude) and address, besides showing you in the map. All you need for a bike ride! <br />
 12)  <a href="https://github.com/ofernandopro/simple-ios-apps/tree/main/daily-notes">Daily Notes</a> - With this amazing App, you can write down the ideas you have on a day, the things you have to do, your plans, and everything else you want!
+13) <a href="https://github.com/ofernandopro/simple-ios-apps/tree/main/real-dollar-converter-app-notes">Dollar Converter</a> - Want to know how much is 1 dollar in Brazilian Real? So you need this App!
 
 
 <br />
